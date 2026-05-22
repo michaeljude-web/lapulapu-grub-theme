@@ -1,5 +1,5 @@
 title-text: ""
-desktop-image: "background.png"
+desktop-image: "assets/background.png"
 desktop-color: "#1a0505"
 terminal-left: "0"
 terminal-top: "0"
@@ -22,7 +22,7 @@ terminal-border: "0"
     item_color = "#c8a882"
     selected_item_font = "Permanent Marker Regular 52"
     selected_item_color = "#ffffff"
-    selected_item_pixmap_style = "brush_*.png"
+    selected_item_pixmap_style = "assets/brush_*.png"
 }
 
 + label {

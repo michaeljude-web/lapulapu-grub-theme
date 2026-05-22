@@ -1,6 +1,6 @@
 # Lapu-Lapu GRUB Theme
 
-![Screenshot](screenshot.png)
+![Screenshot](assets/screenshot.png)
 
 # Installation
 

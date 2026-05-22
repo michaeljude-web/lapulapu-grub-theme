@@ -27,9 +27,9 @@ echo -e "${GREEN}      Done${RESET}"
 echo -e "${CYAN}[2/4] Generating fonts...${RESET}"
 if command -v grub-mkfont &> /dev/null; then
     cd "$THEME_DIR"
-    if [ -f "PermanentMarker-Regular.ttf" ]; then
-        grub-mkfont -s 52 -o menu_font.pf2 PermanentMarker-Regular.ttf 2>/dev/null
-        grub-mkfont -s 18 -o timer_font.pf2 PermanentMarker-Regular.ttf 2>/dev/null
+    if [ -f "fonts/PermanentMarker-Regular.ttf" ]; then
+        grub-mkfont -s 52 -o menu_font.pf2 fonts/PermanentMarker-Regular.ttf 2>/dev/null
+        grub-mkfont -s 18 -o timer_font.pf2 fonts/PermanentMarker-Regular.ttf 2>/dev/null
     fi
     cd - > /dev/null
 fi
